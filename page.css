@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)), url(./image/utiliser.jpg);
+    height: 120vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.principal .nav a{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 0 10px;
+    margin: 10px 20px;
+    font-size: 20px;
+    position: absolute;
+    color: cornsilk;
+    } 
+.principal .nav a:hover{
+   
+    border-color: violet;
+}
+.nav a span{
+    color: rgba(226, 33, 65, 0.7);
+}
+.principal  a{
+   
+    font-family: Century;
+    font-size: medium;
+   
+
+    }
+.principal ul{
+    float: right;
+    list-style: none;
+    display: flex;
+    border: 1px solid transparent;
+    margin: 10px 20px;
+    
+}
+.principal ul a{
+   
+    margin: 10px 20px;
+    font-size: medium;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    transition: 0.6s ease;
+}
+.principal ul a:hover{
+   
+   color: blue;
+}
+.principal ul .active:hover{
+    background: white;
+    color: black;
+}
+h1{
+position: absolute;
+top: 50%;
+left: 50%;    
+text-transform: uppercase;
+transform: translate(-50%,-50%);
+text-size-adjust: 50px;
+color: white;
+font-size: 60px;
+}
+ .bas{
+     position: absolute;
+     top: 60%;
+     left: 50%;
+     
+
+ }
+ .bas a{
+    color: white;
+  border: 1px solid black;
+   display: flex;
+   justify-content: space-between;
+   border-radius: 5px ;
+   padding: 10px 20px;
+  
+   margin:10px -50px ;
+ }
+ .bas a:hover{
+     color: black;
+     background-color: blanchedalmond;
+ }
+ 
+ .bas image{
+     position: relative;
+     height:50px;
+     width: 50px;
+
+ }
